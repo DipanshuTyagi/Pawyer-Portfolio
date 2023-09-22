@@ -1,70 +1,45 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# How to Setup on Local Machine
 
-## Available Scripts
+1. Install [Node.js](https://nodejs.org/en/download) and npm. Node.js is a JavaScript runtime environment that is required to run ReactJS apps. npm is a package manager for Node.js that is used to install and manage dependencies.
+2. Clone the ReactJS app from GitHub. Open a terminal window and navigate to the directory where you want to clone the app. Then, run the following command:
+```
+git clone https://github.com/DipanshuTyagi/Pawyer-Portfolio.git
+```
 
-In the project directory, you can run:
+This will clone the ReactJS app from GitHub to your local machine.
 
-### `npm start`
+3. Install the app's dependencies. Navigate to the directory where you cloned the app and run the following command: 
+```
+npm install
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+```
+This will install all of the app's dependencies.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+4. Start the app's development server. Run the following command:
+```
+npm start
 
-### `npm test`
+```
+This will start the app's development server on port 3000.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+5. Open the app in your web browser. Open a web browser and navigate to http://localhost:3000. You should see the ReactJS app running in your browser.
 
-### `npm run build`
+Here are some additional tips:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- If you are using a different package manager, such as Yarn, you can use the following command to install the app's dependencies:
+```
+yarn install
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```
+- If you want to start the app's development server on a different port, you can use the following command:
+```
+npm start <port>
+```
+- If you are using a Mac, you can also start the app's development server using the following command:
+  ```
+    open http://localhost:3000 
+  ```
+This will open the app in your default web browser.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Once you have set up the ReactJS app in your local machine, you can start developing and testing it. You can also use the app to learn more about ReactJS and how it works.
